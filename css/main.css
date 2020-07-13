@@ -1,0 +1,41 @@
+*{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+ }
+
+body{
+ background: #76B9EC
+ }
+
+.header, .footer{
+ display: flex;
+ width: 100%;
+ padding: 2%;
+ }
+
+.header{
+ background: #fff;
+ }
+ 
+.navbar > ul > li{
+ display: inline-block;
+ }
+
+.navbar > ul > li > a{
+ color: #000;
+ text-decoration: none;
+ }
+
+
+.header, .footer{
+ display: flex;
+ width: 100%;
+ padding: 2%;
+ justify-content: center;
+ }
+
+.footer{
+ position: fixed;
+ bottom: 0;
+ }
