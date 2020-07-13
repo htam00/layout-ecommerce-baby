@@ -1,0 +1,29 @@
+{
+  "name": "layout-ecommerce",
+  "version": "0.0.1",
+  "description": "Layout Ecommerce Baby",
+  "main": "webpack.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/htam00/layout-ecommerce-baby.git"
+  },
+  "keywords": [
+    "ecommerce",
+    "layout-ecommerce",
+    "ecommerce-layout"
+  ],
+  "author": "Matheus L.",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/htam00/layout-ecommerce-baby/issues"
+  },
+  "homepage": "https://github.com/htam00/layout-ecommerce-baby#readme",
+  "devDependencies": {
+    "sass": "^1.26.10",
+    "sass-loader": "^9.0.2",
+    "webpack": "^4.43.0"
+  }
+}
