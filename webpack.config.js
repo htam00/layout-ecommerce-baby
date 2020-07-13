@@ -1,3 +1,4 @@
+// Configure Sass Loader
 module.exports = {
 	module: {
 	 rules: [
