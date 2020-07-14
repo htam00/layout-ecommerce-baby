@@ -2,9 +2,36 @@ $blue-baby: #76B9EC;
 
 $black-color: #000;
 
+*{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+ }
+
 body{
  background-color: $blue-baby;
  }
 
+.header, .footer {
+ display: flex;
+ width: 100%;
+ padding: 5%;
+ background: #fff;
+ }
 
-
+.header{
+ align-items: center;
+ li{
+  display: inline-block;
+  a{
+   text-decoration: none;
+   color: $black-color;
+  }
+  }
+}
+	 
+.footer {
+ position: fixed;
+ justify-content: center;
+ bottom: 0;
+}

@@ -1,4 +1,9 @@
+
+module.exports = {
+}
+
 // Configure Sass Loader
+/*
 module.exports = {
 	module: {
 	 rules: [
@@ -17,7 +22,8 @@ module.exports = {
 		   options: {
 			sourceMap: true,
 		   },
-		},
+		}],
 	  },
 	},
 };
+*/

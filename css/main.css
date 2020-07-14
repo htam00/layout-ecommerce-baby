@@ -1,5 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   background-color: #76B9EC;
+}
+
+.header, .footer {
+  display: flex;
+  width: 100%;
+  padding: 5%;
+  background: #fff;
+}
+
+.header {
+  align-items: center;
+}
+.header li {
+  display: inline-block;
+}
+.header li a {
+  text-decoration: none;
+  color: #000;
+}
+
+.footer {
+  position: fixed;
+  justify-content: center;
+  bottom: 0;
 }
 
 /*# sourceMappingURL=main.css.map */
