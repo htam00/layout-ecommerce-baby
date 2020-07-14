@@ -1,5 +1,6 @@
 
 module.exports = {
+	// ...
 }
 
 // Configure Sass Loader
