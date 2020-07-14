@@ -1,6 +1,7 @@
 node_modules
 *.log
-package-*.json
+package*.json
 .env
-webpack.config.js
+
+*.config.js
 
