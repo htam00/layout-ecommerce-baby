@@ -5,19 +5,23 @@
 }
 
 body {
-  background-color: #000;
+  background-color: #76B9EC;
 }
 
 .header, .footer {
   display: flex;
   width: 100%;
-  padding: 5%;
+  padding: 3% 7%;
   background: #fff;
+  color: #76B9EC;
 }
 
 .header {
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
+}
+.header .menu {
+  font-size: 25px;
 }
 .header .menu li {
   display: inline-block;
@@ -29,6 +33,9 @@ body {
 .header .menu span {
   display: none;
 }
+.header .buy {
+  font-size: 25px;
+}
 
 .footer {
   position: fixed;
@@ -37,11 +44,44 @@ body {
 }
 
 @media screen and (max-width: 700px) {
+  .header {
+    color: #76B9EC;
+  }
   .header .menu li {
     display: none;
   }
   .header .menu span {
     display: block;
+  }
+
+  .header.responsive {
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 602px;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .header.responsive .brand {
+    position: absolute;
+    float: left;
+    top: 10px;
+    left: 20px;
+  }
+  .header.responsive .buy {
+    display: none;
+  }
+  .header.responsive .menu li {
+    display: block;
+    margin: 50px 0;
+    font-size: 25pt;
+  }
+  .header.responsive .menu .icon {
+    position: absolute;
+    float: right;
+    top: 10px;
+    right: 20px;
   }
 }
 

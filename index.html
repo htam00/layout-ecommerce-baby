@@ -8,21 +8,23 @@
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/5.0.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 </head>
 <body>
-	<div class="header">
-	 <div class="menu">
+	<div class="header" id="header">
+	 <div class="menu" id="menu">
 	  <ul>
 		<li><a href="#">home</a></li>
 		<li><a href="#">produtos</a></li>
 		<li><a href="#">blog</a></li>
 		<li><a href="#">contatos</a></li>
 	  </ul>
-	  <span><i class="fas fa-bars"></i></span>
+	  <span>
+		  <a href="javascript:void(0);" class="icon" onclick="openNavbar()"><i class="fas fa-bars"></i></a>
+	  </span>
 	 </div>
 	 <div class="brand">
 		 <h1>Ecommerce</h1>
 	 </div>
 	 <div class="buy">
-		 <i class="fas fa-shopping-cart"></i>
+		<i class="fas fa-shopping-cart"></i>
 	 </div>
 	</div>
 
@@ -33,7 +35,7 @@
 		<p>&copy; Ecommerce 2020
 	</div>
 
-	<script src="app.js"></script>
+	<script src="js/bundle.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/js/all.min.js"></script>
 </body>
 </html>
