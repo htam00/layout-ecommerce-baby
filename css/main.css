@@ -20,6 +20,11 @@ a {
   color: #76B9EC;
 }
 
+.main {
+  display: flex;
+  width: 100%;
+}
+
 .header {
   align-items: center;
   justify-content: space-between;
@@ -61,6 +66,16 @@ a {
   }
   .header .menu span .close {
     display: none;
+  }
+  .header .buy .product-qt {
+    position: absolute;
+    top: 5px;
+    right: 20px;
+    padding: 1%;
+    border-radius: 50%;
+    background: red;
+    color: #fff;
+    font-size: 10pt;
   }
 
   .header.responsive {

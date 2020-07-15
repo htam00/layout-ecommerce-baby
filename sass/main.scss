@@ -25,6 +25,11 @@ a{ text-decoration: none; }
  color: $blue-baby;
  }
 
+.main{
+ display: flex;
+ width: 100%;
+}
+
 .header{
  align-items: center;
  justify-content: space-between;
@@ -68,6 +73,18 @@ a{ text-decoration: none; }
 			 }
 		 }
 	 }
+	 	.buy{
+			.product-qt{
+				position: absolute;
+				top: 5px;
+				right: 20px;
+				padding: 1%;
+				border-radius: 50%;
+				background: red;
+				color: $white-color;
+				font-size: 10pt;
+			}
+		}
  }
 
 .header.responsive{
