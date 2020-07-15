@@ -37,6 +37,7 @@ body{
  }
  span{
    display: none;
+   a { color: $blue-baby; }
   }
  }
  .buy{
@@ -60,7 +61,10 @@ body{
 			 
 		 }
 		 	span{
-			 display: block;
+			 	display: block;
+				.close {
+				 display: none;
+			 }
 		 }
 	 }
  }
@@ -73,6 +77,7 @@ body{
 	align-items: start;
 	justify-content: center;
 	flex-direction: column;
+	outline: none;
 	.brand{
 		position: absolute;
 		float: left;
@@ -89,11 +94,16 @@ body{
 		margin: 50px 0;
 		font-size: 25pt;
 	}
-	.menu .icon{
+	.menu .close{
+		display: block;
 		position: absolute;
 		float: right;
 		top: 10px;
 		right: 20px;
 	}
+	.menu .bars{
+		display: none;
+	}
 }
+
 }
