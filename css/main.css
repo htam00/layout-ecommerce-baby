@@ -8,6 +8,10 @@ body {
   background-color: #76B9EC;
 }
 
+a {
+  text-decoration: none;
+}
+
 .header, .footer {
   display: flex;
   width: 100%;
@@ -27,7 +31,6 @@ body {
   display: inline-block;
 }
 .header .menu li a {
-  text-decoration: none;
   color: #000;
 }
 .header .menu span {
@@ -88,11 +91,26 @@ body {
     display: block;
     position: absolute;
     float: right;
-    top: 10px;
+    top: 15px;
     right: 20px;
   }
   .header.responsive .menu .bars {
     display: none;
+  }
+
+  .menu-horizontal {
+    overflow: auto;
+    padding: 3%;
+    white-space: nowrap;
+    background: #fff;
+    border-top: 1px solid #76B9EC;
+  }
+  .menu-horizontal li {
+    display: inline-block;
+    margin: 0 10px;
+  }
+  .menu-horizontal li a {
+    color: #76B9EC;
   }
 }
 
