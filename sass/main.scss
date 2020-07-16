@@ -23,6 +23,7 @@ a{ text-decoration: none; }
  padding: 3% 7%;
  background: $white-color;
  color: $blue-baby;
+ transition: 0.5s;
  }
 
 .main{
@@ -50,7 +51,6 @@ a{ text-decoration: none; }
    font-size: $size;
    }
 }
-
 
 .footer {
  position: fixed;
@@ -137,4 +137,10 @@ a{ text-decoration: none; }
  	}
 }
 
+}
+
+@media screen and (min-width: 700px) {
+	.menu-horizontal{
+		display: none;
+	}
 }

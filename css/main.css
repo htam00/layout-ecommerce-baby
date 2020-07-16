@@ -18,6 +18,7 @@ a {
   padding: 3% 7%;
   background: #fff;
   color: #76B9EC;
+  transition: 0.5s;
 }
 
 .main {
@@ -126,6 +127,11 @@ a {
   }
   .menu-horizontal li a {
     color: #76B9EC;
+  }
+}
+@media screen and (min-width: 700px) {
+  .menu-horizontal {
+    display: none;
   }
 }
 
