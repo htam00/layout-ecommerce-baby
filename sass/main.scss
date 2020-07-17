@@ -23,13 +23,7 @@ a{ text-decoration: none; }
  padding: 3% 7%;
  background: $white-color;
  color: $blue-baby;
- transition: 0.5s;
  }
-
-.main{
- display: flex;
- width: 100%;
-}
 
 .header{
  align-items: center;
@@ -52,10 +46,15 @@ a{ text-decoration: none; }
    }
 }
 
+.main{
+	display: flex;
+	width: 100%;
+}
+
 .footer {
- position: fixed;
  justify-content: center;
  bottom: 0;
+ 
 }
 
 @media screen and (max-width:700px){
@@ -85,6 +84,7 @@ a{ text-decoration: none; }
 				font-size: 10pt;
 			}
 		}
+
  }
 
 .header.responsive{
@@ -135,6 +135,14 @@ a{ text-decoration: none; }
 	 	margin: 0 10px;	
 		a { color: $blue-baby; }
  	}
+}
+
+.main{
+	.catalog-product{
+		.product{
+			display: inline-block;
+		}
+	}
 }
 
 }
